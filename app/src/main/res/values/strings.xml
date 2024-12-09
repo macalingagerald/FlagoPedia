@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">FlagoPedia</string>
+    <string name="start_btn">Explore</string>
+    <string name="ph_desc"/>
+    <string name="ph">Philippines</string>
+</resources>
