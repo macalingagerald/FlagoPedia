@@ -21,4 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "FlagoPedia"
 include(":app")
+include(":app")
  
