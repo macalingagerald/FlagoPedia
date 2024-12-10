@@ -20,7 +20,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:gravity="center"
-            android:layout_marginTop="80dp">
+            android:layout_marginTop="60dp">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -55,6 +55,7 @@
                 android:fontFamily="sans-serif" />
 
             <ImageView
+                android:id="@+id/country2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ph"
@@ -75,6 +76,7 @@
                 android:fontFamily="sans-serif" />
 
             <ImageView
+                android:id="@+id/country3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ph"
@@ -95,6 +97,7 @@
                 android:fontFamily="sans-serif" />
 
             <ImageView
+                android:id="@+id/country4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ph"
@@ -115,6 +118,7 @@
                 android:fontFamily="sans-serif" />
 
             <ImageView
+                android:id="@+id/country5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ph"
@@ -135,6 +139,7 @@
                 android:fontFamily="sans-serif" />
 
             <ImageView
+                android:id="@+id/country6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ph"
@@ -155,6 +160,7 @@
                 android:fontFamily="sans-serif" />
 
             <ImageView
+                android:id="@+id/country7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ph"
@@ -175,6 +181,7 @@
                 android:fontFamily="sans-serif" />
 
             <ImageView
+                android:id="@+id/country8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ph"
@@ -195,6 +202,7 @@
                 android:fontFamily="sans-serif" />
 
             <ImageView
+                android:id="@+id/country9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ph"
@@ -215,11 +223,222 @@
                 android:fontFamily="sans-serif" />
 
             <ImageView
+                android:id="@+id/country10"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ph"
                 android:contentDescription="@string/ph_desc"
                 android:layout_marginTop="1080dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/country_bg1"
+                android:layout_marginStart="40dp"
+                android:text="@string/ph"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:padding="25dp"
+                android:layout_marginTop="1200dp"
+                android:fontFamily="sans-serif" />
+
+            <ImageView
+                android:id="@+id/country11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ph"
+                android:contentDescription="@string/ph_desc"
+                android:layout_marginTop="1200dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/country_bg2"
+                android:layout_marginStart="40dp"
+                android:text="@string/ph"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:padding="25dp"
+                android:layout_marginTop="1320dp"
+                android:fontFamily="sans-serif" />
+
+            <ImageView
+                android:id="@+id/country12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ph"
+                android:contentDescription="@string/ph_desc"
+                android:layout_marginTop="1320dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/country_bg1"
+                android:layout_marginStart="40dp"
+                android:text="@string/ph"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:padding="25dp"
+                android:layout_marginTop="1440dp"
+                android:fontFamily="sans-serif" />
+
+            <ImageView
+                android:id="@+id/country13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ph"
+                android:contentDescription="@string/ph_desc"
+                android:layout_marginTop="1440dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/country_bg2"
+                android:layout_marginStart="40dp"
+                android:text="@string/ph"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:padding="25dp"
+                android:layout_marginTop="1560dp"
+                android:fontFamily="sans-serif" />
+
+            <ImageView
+                android:id="@+id/country14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ph"
+                android:contentDescription="@string/ph_desc"
+                android:layout_marginTop="1560dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/country_bg1"
+                android:layout_marginStart="40dp"
+                android:text="@string/ph"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:padding="25dp"
+                android:layout_marginTop="1680dp"
+                android:fontFamily="sans-serif" />
+
+            <ImageView
+                android:id="@+id/country15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ph"
+                android:contentDescription="@string/ph_desc"
+                android:layout_marginTop="1680dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/country_bg2"
+                android:layout_marginStart="40dp"
+                android:text="@string/ph"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:padding="25dp"
+                android:layout_marginTop="1800dp"
+                android:fontFamily="sans-serif" />
+
+            <ImageView
+                android:id="@+id/country16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ph"
+                android:contentDescription="@string/ph_desc"
+                android:layout_marginTop="1800dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/country_bg1"
+                android:layout_marginStart="40dp"
+                android:text="@string/ph"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:padding="25dp"
+                android:layout_marginTop="1920dp"
+                android:fontFamily="sans-serif" />
+
+            <ImageView
+                android:id="@+id/country17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ph"
+                android:contentDescription="@string/ph_desc"
+                android:layout_marginTop="1920dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/country_bg2"
+                android:layout_marginStart="40dp"
+                android:text="@string/ph"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:padding="25dp"
+                android:layout_marginTop="2040dp"
+                android:fontFamily="sans-serif" />
+
+            <ImageView
+                android:id="@+id/country18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ph"
+                android:contentDescription="@string/ph_desc"
+                android:layout_marginTop="2040dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/country_bg1"
+                android:layout_marginStart="40dp"
+                android:text="@string/ph"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:padding="25dp"
+                android:layout_marginTop="2160dp"
+                android:fontFamily="sans-serif" />
+
+            <ImageView
+                android:id="@+id/country19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ph"
+                android:contentDescription="@string/ph_desc"
+                android:layout_marginTop="2160dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/country_bg2"
+                android:layout_marginStart="40dp"
+                android:text="@string/ph"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:padding="25dp"
+                android:layout_marginTop="2280dp"
+                android:fontFamily="sans-serif" />
+
+            <ImageView
+                android:id="@+id/country20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ph"
+                android:contentDescription="@string/ph_desc"
+                android:layout_marginTop="2280dp"/>
 
         </RelativeLayout>
 
