@@ -28,19 +28,19 @@
             android:textColor="@color/white"
             android:textSize="40sp" />
 
-        <TextView
+        <Button
             android:id="@+id/start_btn"
-            android:layout_width="150dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Explore"
+            android:textSize="18sp"
+            android:paddingStart="32dp"
+            android:paddingEnd="32dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
             android:background="@drawable/rounded_corner"
-            android:text="@string/start_btn"
-            android:textColor="@color/white"
-            android:textSize="20sp"
-            android:padding="9dp"
-            android:textAlignment="center"
-            android:fontFamily="sans-serif"/>
-
-
+            android:textColor="#FFFFFF"
+            android:elevation="4dp" />
 
     </LinearLayout>
 

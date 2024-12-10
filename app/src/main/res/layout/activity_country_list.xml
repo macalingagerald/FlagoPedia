@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:ignore="UselessParent">
-        
+
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -23,6 +23,7 @@
             android:layout_marginTop="60dp">
 
             <TextView
+                android:id="@+id/name1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/country_bg1"
@@ -42,16 +43,29 @@
                 android:contentDescription="@string/ph_desc" />
 
             <TextView
+                android:id="@+id/capitalInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/country_bg1"
+                android:padding="16dp"
+                android:text="Capital City: Manila"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/name2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/country_bg2"
                 android:layout_marginStart="40dp"
-                android:text="@string/ph"
+                android:text="United States"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="30sp"
                 android:padding="25dp"
                 android:layout_marginTop="120dp"
+                android:paddingStart="50dp"
                 android:fontFamily="sans-serif" />
 
             <ImageView
@@ -63,11 +77,12 @@
                 android:layout_marginTop="120dp"/>
 
             <TextView
+                android:id="@+id/name3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/country_bg1"
                 android:layout_marginStart="40dp"
-                android:text="@string/ph"
+                android:text="Canada"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="30sp"
@@ -84,11 +99,12 @@
                 android:layout_marginTop="240dp"/>
 
             <TextView
+                android:id="@+id/name4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/country_bg2"
                 android:layout_marginStart="40dp"
-                android:text="@string/ph"
+                android:text="Brazil"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="30sp"
@@ -105,11 +121,12 @@
                 android:layout_marginTop="360dp"/>
 
             <TextView
+                android:id="@+id/name5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/country_bg1"
                 android:layout_marginStart="40dp"
-                android:text="@string/ph"
+                android:text="Argentina"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="30sp"
@@ -126,11 +143,12 @@
                 android:layout_marginTop="480dp"/>
 
             <TextView
+                android:id="@+id/name6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/country_bg2"
                 android:layout_marginStart="40dp"
-                android:text="@string/ph"
+                android:text="Germany"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="30sp"
@@ -147,11 +165,12 @@
                 android:layout_marginTop="600dp"/>
 
             <TextView
+                android:id="@+id/name7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/country_bg1"
                 android:layout_marginStart="40dp"
-                android:text="@string/ph"
+                android:text="France"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="30sp"
@@ -168,11 +187,12 @@
                 android:layout_marginTop="720dp"/>
 
             <TextView
+                android:id="@+id/name8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/country_bg2"
                 android:layout_marginStart="40dp"
-                android:text="@string/ph"
+                android:text="Italy"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="30sp"
@@ -189,11 +209,12 @@
                 android:layout_marginTop="840dp"/>
 
             <TextView
+                android:id="@+id/name9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/country_bg1"
                 android:layout_marginStart="40dp"
-                android:text="@string/ph"
+                android:text="Australia"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="30sp"
@@ -210,11 +231,12 @@
                 android:layout_marginTop="960dp"/>
 
             <TextView
+                android:id="@+id/name10"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/country_bg2"
                 android:layout_marginStart="40dp"
-                android:text="@string/ph"
+                android:text="Japan"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="30sp"
@@ -231,11 +253,12 @@
                 android:layout_marginTop="1080dp"/>
 
             <TextView
+                android:id="@+id/name11"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/country_bg1"
                 android:layout_marginStart="40dp"
-                android:text="@string/ph"
+                android:text="China"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="30sp"
@@ -252,11 +275,12 @@
                 android:layout_marginTop="1200dp"/>
 
             <TextView
+                android:id="@+id/name12"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/country_bg2"
                 android:layout_marginStart="40dp"
-                android:text="@string/ph"
+                android:text="India"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="30sp"
@@ -273,16 +297,18 @@
                 android:layout_marginTop="1320dp"/>
 
             <TextView
+                android:id="@+id/name13"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/country_bg1"
                 android:layout_marginStart="40dp"
-                android:text="@string/ph"
+                android:text="South Africa"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="30sp"
                 android:padding="25dp"
                 android:layout_marginTop="1440dp"
+                android:paddingStart="55dp"
                 android:fontFamily="sans-serif" />
 
             <ImageView
@@ -294,6 +320,7 @@
                 android:layout_marginTop="1440dp"/>
 
             <TextView
+                android:id="@+id/name14"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/country_bg2"
@@ -315,11 +342,12 @@
                 android:layout_marginTop="1560dp"/>
 
             <TextView
+                android:id="@+id/name15"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/country_bg1"
                 android:layout_marginStart="40dp"
-                android:text="@string/ph"
+                android:text="Egypt"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="30sp"
@@ -336,11 +364,12 @@
                 android:layout_marginTop="1680dp"/>
 
             <TextView
+                android:id="@+id/name16"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/country_bg2"
                 android:layout_marginStart="40dp"
-                android:text="@string/ph"
+                android:text="Mexico"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="30sp"
@@ -357,11 +386,12 @@
                 android:layout_marginTop="1800dp"/>
 
             <TextView
+                android:id="@+id/name17"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/country_bg1"
                 android:layout_marginStart="40dp"
-                android:text="@string/ph"
+                android:text="Russia"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="30sp"
@@ -378,16 +408,18 @@
                 android:layout_marginTop="1920dp"/>
 
             <TextView
+                android:id="@+id/name18"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/country_bg2"
                 android:layout_marginStart="40dp"
-                android:text="@string/ph"
+                android:text="South Korea"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="30sp"
                 android:padding="25dp"
                 android:layout_marginTop="2040dp"
+                android:paddingStart="50dp"
                 android:fontFamily="sans-serif" />
 
             <ImageView
@@ -399,16 +431,18 @@
                 android:layout_marginTop="2040dp"/>
 
             <TextView
+                android:id="@+id/name19"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/country_bg1"
                 android:layout_marginStart="40dp"
-                android:text="@string/ph"
+                android:text="Saudi Arabia"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="30sp"
                 android:padding="25dp"
                 android:layout_marginTop="2160dp"
+                android:paddingStart="50dp"
                 android:fontFamily="sans-serif" />
 
             <ImageView
@@ -420,6 +454,7 @@
                 android:layout_marginTop="2160dp"/>
 
             <TextView
+                android:id="@+id/name20"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/country_bg2"
