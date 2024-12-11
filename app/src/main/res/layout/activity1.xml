@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/home"
+        android:gravity="center"
+        android:elevation="8dp"
+        android:translationZ="4dp"
+        android:outlineProvider="bounds"
+        tools:context=".CountryList">
+
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="start"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="0dp"
+            android:src="@drawable/arrow_1"
+            android:background="@null"
+            android:contentDescription="@string/app_name"
+            android:importantForAccessibility="yes"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="UselessParent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginTop="35dp"
+                android:layout_marginRight="35dp">
+
+                <TextView
+                    android:id="@+id/name1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rect_1"
+                    android:layout_marginStart="40dp"
+                    android:text="@string/ph"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:padding="25dp"
+                    android:fontFamily="sans-serif" />
+
+
+                <TextView
+                    android:id="@+id/capitalInfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rect_1"
+                    android:padding="16dp"
+                    android:text="Capital City: Manila"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/name2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rect_2"
+                    android:layout_marginStart="40dp"
+                    android:text="United States"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:padding="25dp"
+                    android:layout_marginTop="120dp"
+                    android:paddingStart="50dp"
+                    android:fontFamily="sans-serif" />
+
+
+                <TextView
+                    android:id="@+id/name3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rect_1"
+                    android:layout_marginStart="40dp"
+                    android:text="Canada"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:padding="25dp"
+                    android:layout_marginTop="240dp"
+                    android:fontFamily="sans-serif" />
+
+
+
+                <TextView
+                    android:id="@+id/name4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rect_2"
+                    android:layout_marginStart="40dp"
+                    android:text="Brazil"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:padding="25dp"
+                    android:layout_marginTop="360dp"
+                    android:fontFamily="sans-serif" />
+
+                <TextView
+                    android:id="@+id/name5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rect_1"
+                    android:layout_marginStart="40dp"
+                    android:text="Argentina"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:padding="25dp"
+                    android:layout_marginTop="480dp"
+                    android:fontFamily="sans-serif" />
+
+
+                <TextView
+                    android:id="@+id/name6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rect_2"
+                    android:layout_marginStart="40dp"
+                    android:text="Germany"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:padding="25dp"
+                    android:layout_marginTop="600dp"
+                    android:fontFamily="sans-serif" />
+
+
+                <TextView
+                    android:id="@+id/name7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rect_1"
+                    android:layout_marginStart="40dp"
+                    android:text="France"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:padding="25dp"
+                    android:layout_marginTop="720dp"
+                    android:fontFamily="sans-serif" />
+
+
+                <TextView
+                    android:id="@+id/name8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rect_2"
+                    android:layout_marginStart="40dp"
+                    android:text="Italy"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:padding="25dp"
+                    android:layout_marginTop="840dp"
+                    android:fontFamily="sans-serif" />
+
+
+                <TextView
+                    android:id="@+id/name9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rect_1"
+                    android:layout_marginStart="40dp"
+                    android:text="Australia"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:padding="25dp"
+                    android:layout_marginTop="960dp"
+                    android:fontFamily="sans-serif" />
+
+
+                <TextView
+                    android:id="@+id/name10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rect_2"
+                    android:layout_marginStart="40dp"
+                    android:text="Japan"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:padding="25dp"
+                    android:layout_marginTop="1080dp"
+                    android:fontFamily="sans-serif" />
+
+
+                <TextView
+                    android:id="@+id/name11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rect_1"
+                    android:layout_marginStart="40dp"
+                    android:text="China"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:padding="25dp"
+                    android:layout_marginTop="1200dp"
+                    android:fontFamily="sans-serif" />
+
+
+                <TextView
+                    android:id="@+id/name12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rect_2"
+                    android:layout_marginStart="40dp"
+                    android:text="India"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:padding="25dp"
+                    android:layout_marginTop="1320dp"
+                    android:fontFamily="sans-serif" />
+
+
+                <TextView
+                    android:id="@+id/name13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rect_1"
+                    android:layout_marginStart="40dp"
+                    android:text="South Africa"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:padding="25dp"
+                    android:layout_marginTop="1440dp"
+                    android:paddingStart="55dp"
+                    android:fontFamily="sans-serif" />
+
+
+                <TextView
+                    android:id="@+id/name14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rect_2"
+                    android:layout_marginStart="40dp"
+                    android:text="@string/ph"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:padding="25dp"
+                    android:layout_marginTop="1560dp"
+                    android:fontFamily="sans-serif" />
+
+
+                <TextView
+                    android:id="@+id/name15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rect_1"
+                    android:layout_marginStart="40dp"
+                    android:text="Egypt"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:padding="25dp"
+                    android:layout_marginTop="1680dp"
+                    android:fontFamily="sans-serif" />
+
+                <TextView
+                    android:id="@+id/name16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rect_2"
+                    android:layout_marginStart="40dp"
+                    android:text="Mexico"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:padding="25dp"
+                    android:layout_marginTop="1800dp"
+                    android:fontFamily="sans-serif" />
+
+
+                <TextView
+                    android:id="@+id/name17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rect_1"
+                    android:layout_marginStart="40dp"
+                    android:text="Russia"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:padding="25dp"
+                    android:layout_marginTop="1920dp"
+                    android:fontFamily="sans-serif" />
+
+
+                <TextView
+                    android:id="@+id/name18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rect_2"
+                    android:layout_marginStart="40dp"
+                    android:text="South Korea"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:padding="25dp"
+                    android:layout_marginTop="2040dp"
+                    android:paddingStart="50dp"
+                    android:fontFamily="sans-serif" />
+
+
+                <TextView
+                    android:id="@+id/name19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rect_1"
+                    android:layout_marginStart="40dp"
+                    android:text="Saudi Arabia"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:padding="25dp"
+                    android:layout_marginTop="2160dp"
+                    android:paddingStart="50dp"
+                    android:fontFamily="sans-serif" />
+
+
+                <TextView
+                    android:id="@+id/name20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rect_2"
+                    android:layout_marginStart="40dp"
+                    android:text="@string/ph"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:padding="25dp"
+                    android:layout_marginTop="2280dp"
+                    android:fontFamily="sans-serif" />
+
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+</FrameLayout>

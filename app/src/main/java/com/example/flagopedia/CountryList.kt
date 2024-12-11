@@ -1,8 +1,10 @@
 package com.example.flagopedia
 
 import android.os.Bundle
+import android.view.MotionEvent
 import android.view.View
 import android.view.animation.AnimationUtils
+import android.widget.ImageButton
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -26,12 +28,12 @@ class CountryList : AppCompatActivity() {
 
         initializeCountryViews()
         setupClickListeners()
+        setupBackButton()
     }
 
     private fun initializeCountryViews() {
         countryViews = listOf(
             findViewById<TextView>(R.id.name1) to findViewById(R.id.capitalInfo),
-            // Add more countries as needed
         )
     }
 
@@ -42,7 +44,6 @@ class CountryList : AppCompatActivity() {
             R.id.name3 to "Ottawa",
             R.id.name4 to "Brasília",
             R.id.name5 to "Buenos Aires"
-            // Add more capitals as needed
         )
 
         countryViews.forEach { (countryView, capitalView) ->
@@ -94,5 +95,27 @@ class CountryList : AppCompatActivity() {
 
         expandedView = null
         expandedCapitalInfo = null
+    }
+
+    private fun setupBackButton() {
+        val backButton: ImageButton = findViewById(R.id.backButton)
+
+        backButton.setOnTouchListener { v, event ->
+            when (event.action) {
+                MotionEvent.ACTION_DOWN -> {
+                    // Scale down when pressed
+                    v.animate().scaleX(0.95f).scaleY(0.95f).setDuration(100).start()
+                }
+                MotionEvent.ACTION_UP, MotionEvent.ACTION_CANCEL -> {
+                    // Scale back to normal when released
+                    v.animate().scaleX(1f).scaleY(1f).setDuration(100).start()
+                }
+            }
+            false // Return false to allow the normal onClick event to fire
+        }
+
+        backButton.setOnClickListener {
+            finish()
+        }
     }
 }
