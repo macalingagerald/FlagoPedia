@@ -3,4 +3,6 @@
     <string name="start_btn">Explore</string>
     <string name="ph_desc" />
     <string name="ph">Philippines</string>
+    <string name="bg1_desc"/>
+    <string name="bg2_desc"/>
 </resources>

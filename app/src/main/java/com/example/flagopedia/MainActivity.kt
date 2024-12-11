@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         startBtn = findViewById(R.id.start_btn)
 
         startBtn.setOnClickListener {
-            val intent = Intent(this, CountryList::class.java)
+            val intent = Intent(this, trylng::class.java)
             startActivity(intent)
         }
 
