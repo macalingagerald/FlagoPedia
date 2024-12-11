@@ -25,10 +25,7 @@ class trylng : AppCompatActivity() {
         countryList = ArrayList()
 
         countryList.add(DataClass(R.drawable.ph, "Philippines", R.drawable.country_bg1))
-        countryList.add(DataClass(R.drawable.ph, "Philippines", R.drawable.country_bg2))
-        countryList.add(DataClass(R.drawable.ph, "Philippines", R.drawable.country_bg1))
-        countryList.add(DataClass(R.drawable.ph, "Philippines", R.drawable.country_bg2))
-
+        countryList.add(DataClass(R.drawable.german, "German", R.drawable.country_bg2))
 
         AdapterClass = AdapterClass(countryList, this)
 
