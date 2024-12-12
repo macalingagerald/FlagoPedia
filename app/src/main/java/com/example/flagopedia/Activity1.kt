@@ -1,12 +1,12 @@
-import com.example.flagopedia.R
+package com.example.flagopedia
 
 import android.os.Bundle
-import android.view.View
 import android.widget.ImageButton
-import android.widget.ScrollView
 import android.widget.TextView
+import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.isVisible
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
 
 class Activity1 : AppCompatActivity() {
 
@@ -15,7 +15,7 @@ class Activity1 : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity1)
+        setContentView(R.layout.activity_1)
 
         // Initialize the views
         backButton = findViewById(R.id.backButton)

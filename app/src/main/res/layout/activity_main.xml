@@ -38,7 +38,7 @@
             android:shadowRadius="4"  />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/activity_1"
+            android:id="@+id/act_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -61,7 +61,7 @@
     </LinearLayout>
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/start_btn"
+        android:id="@+id/act_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"

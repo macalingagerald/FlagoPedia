@@ -1,6 +1,5 @@
 package com.example.flagopedia
 
-import Activity1
 import android.content.Intent
 import android.os.Bundle
 import android.view.MotionEvent
@@ -12,8 +11,8 @@ import androidx.core.view.WindowInsetsCompat
 
 class MainActivity : AppCompatActivity() {
 
-    lateinit var startBtn: Button
-    lateinit var activity_1: Button
+    lateinit var act_1 : Button
+    lateinit var act_2 : Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -25,11 +24,11 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        startBtn = findViewById(R.id.start_btn)
-        activity_1 = findViewById(R.id.activity_1)
+        act_1 = findViewById(R.id.act_1)
+        act_2 = findViewById(R.id.act_2)
 
         // Add scaling animation to Activity 1 button
-        activity_1.setOnTouchListener { v, event ->
+        act_1.setOnTouchListener { v, event ->
             when (event.action) {
                 MotionEvent.ACTION_DOWN -> {
                     // Scale down when pressed
@@ -44,12 +43,12 @@ class MainActivity : AppCompatActivity() {
         }
 
         // Activity 1 button click
-        activity_1.setOnClickListener {
+        act_1.setOnClickListener {
             val intent = Intent(this, Activity1::class.java) // Replace with your Activity1 class
             startActivity(intent)
         }
 
-        startBtn.setOnTouchListener { v, event ->
+        act_2.setOnTouchListener { v, event ->
             when (event.action) {
                 MotionEvent.ACTION_DOWN -> {
                     // Scale down when pressed
@@ -63,7 +62,7 @@ class MainActivity : AppCompatActivity() {
             false // Return false to allow the normal onClick event to fire
         }
 
-        startBtn.setOnClickListener {
+        act_2.setOnClickListener {
             val intent = Intent(this, CountryList::class.java)
             startActivity(intent)
         }
