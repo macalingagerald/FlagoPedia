@@ -8,31 +8,41 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-class AdapterClass(val countryList : List<DataClass>, val context : Context) : RecyclerView.Adapter<AdapterClass.ViewHolder>() {
+class AdapterClass(
+    private val countryList: ArrayList<DataClass>,
+    private val context: Context
+) : RecyclerView.Adapter<AdapterClass.CountryViewHolder>() {
 
-    class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
-
-        val countryImage = view.findViewById<ImageView>(R.id.countryLogo)
-        val countryName = view.findViewById<TextView>(R.id.countryName)
-
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CountryViewHolder {
+        val view = LayoutInflater.from(context).inflate(R.layout.country_list, parent, false)
+        return CountryViewHolder(view)
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        val view = LayoutInflater.from(context).inflate(R.layout.country_list, parent, false)
-        return ViewHolder(view)
+    override fun onBindViewHolder(holder: CountryViewHolder, position: Int) {
+        val country = countryList[position]
+
+        holder.countryLogo.setImageResource(country.image)
+        holder.countryName.text = country.name
+
+        // Set click listener
+        holder.itemView.setOnClickListener {
+            // Toggle visibility of capital text
+            if (holder.countryCapital.visibility == View.GONE) {
+                holder.countryCapital.visibility = View.VISIBLE
+                holder.countryCapital.text = country.capital
+            } else {
+                holder.countryCapital.visibility = View.GONE
+            }
+        }
     }
 
     override fun getItemCount(): Int {
         return countryList.size
     }
 
-    override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        val module = countryList[position]
-
-        holder.countryImage.setImageResource(module.countryImage)
-        holder.countryName.text = module.countryName
-
-        holder.countryName.setBackgroundResource(module.countryBackground)
-
+    inner class CountryViewHolder(view: View) : RecyclerView.ViewHolder(view) {
+        val countryLogo: ImageView = view.findViewById(R.id.countryLogo)
+        val countryName: TextView = view.findViewById(R.id.countryName)
+        val countryCapital: TextView = view.findViewById(R.id.countryCapital)
     }
 }
