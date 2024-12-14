@@ -263,7 +263,7 @@
                     android:layout_height="wrap_content"
                     android:background="@drawable/rect_2"
                     android:layout_marginStart="40dp"
-                    android:text="@string/ph"
+                    android:text="Finland"
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     android:textSize="30sp"
@@ -347,6 +347,20 @@
                     android:paddingStart="50dp"
                     android:fontFamily="sans-serif" />
 
+                <TextView
+                    android:id="@+id/name21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rect_2"
+                    android:layout_marginStart="40dp"
+                    android:text="Yemen"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:padding="25dp"
+                    android:layout_marginTop="2280dp"
+                    android:fontFamily="sans-serif" />
+
 
                 <TextView
                     android:id="@+id/name20"
@@ -354,12 +368,12 @@
                     android:layout_height="wrap_content"
                     android:background="@drawable/rect_2"
                     android:layout_marginStart="40dp"
-                    android:text="@string/ph"
+                    android:text="Yemen"
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     android:textSize="30sp"
                     android:padding="25dp"
-                    android:layout_marginTop="2280dp"
+                    android:layout_marginTop="2400dp"
                     android:fontFamily="sans-serif" />
 
 

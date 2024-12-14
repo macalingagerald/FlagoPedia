@@ -52,32 +52,22 @@
                 android:id="@+id/name1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/rect_1"
                 android:layout_marginStart="40dp"
-                android:text="@string/ph"
+                android:background="@drawable/rect_1"
+                android:fontFamily="@font/dmseritext_italic"
+                android:padding="25dp"
+                android:text="Philippines \n Capital: Manila"
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:textSize="30sp"
-                android:padding="25dp"
-                android:fontFamily="sans-serif" />
+                android:textSize="20sp" />
 
             <ImageView
                 android:id="@+id/country1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ph"
-                android:contentDescription="@string/ph_desc" />
-
-            <TextView
-                android:id="@+id/capitalInfo"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/rect_1"
-                android:padding="16dp"
-                android:text="Capital City: Manila"
-                android:textColor="@color/white"
-                android:textSize="20sp"
-                android:visibility="gone" />
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/ph_desc"
+                android:src="@drawable/ph" />
 
             <TextView
                 android:id="@+id/name2"
@@ -85,14 +75,14 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/rect_2"
                 android:layout_marginStart="40dp"
-                android:text="United States"
+                android:text="United States \n Capital: Washington \nD.C"
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:textSize="30sp"
+                android:textSize="20sp"
                 android:padding="25dp"
                 android:layout_marginTop="120dp"
                 android:paddingStart="50dp"
-                android:fontFamily="sans-serif" />
+                android:fontFamily="@font/dmseritext_italic"/>
 
             <ImageView
                 android:id="@+id/country2"
@@ -101,7 +91,7 @@
                 android:src="@drawable/us"
                 android:contentDescription="@string/ph_desc"
                 android:layout_marginStart="15dp"
-                android:layout_marginTop="129dp"/>
+                android:layout_marginTop="135dp"/>
 
             <TextView
                 android:id="@+id/name3"
@@ -109,13 +99,13 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/rect_1"
                 android:layout_marginStart="40dp"
-                android:text="Canada"
+                android:text="Canada \n Capital: Ottawa"
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:textSize="30sp"
+                android:textSize="20sp"
                 android:padding="25dp"
                 android:layout_marginTop="240dp"
-                android:fontFamily="sans-serif" />
+                android:fontFamily="@font/dmseritext_italic" />
 
             <ImageView
                 android:id="@+id/country3"
@@ -130,23 +120,24 @@
                 android:id="@+id/name4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/rect_2"
                 android:layout_marginStart="40dp"
-                android:text="Brazil"
+                android:layout_marginTop="360dp"
+                android:background="@drawable/rect_2"
+                android:fontFamily="@font/dmseritext_italic"
+                android:padding="25dp"
+                android:text="Brazil \n Capital: Brasilia"
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:textSize="30sp"
-                android:padding="25dp"
-                android:layout_marginTop="360dp"
-                android:fontFamily="sans-serif" />
+                android:textSize="20sp" />
 
             <ImageView
                 android:id="@+id/country4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ph"
+                android:src="@drawable/brazil"
+                android:layout_marginStart="15dp"
                 android:contentDescription="@string/ph_desc"
-                android:layout_marginTop="360dp"/>
+                android:layout_marginTop="370dp"/>
 
             <TextView
                 android:id="@+id/name5"
@@ -154,21 +145,22 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/rect_1"
                 android:layout_marginStart="40dp"
-                android:text="Argentina"
+                android:text="Argentina \n Capital: Buenes \n Aires"
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:textSize="30sp"
+                android:textSize="20sp"
                 android:padding="25dp"
                 android:layout_marginTop="480dp"
-                android:fontFamily="sans-serif" />
+                android:fontFamily="@font/dmseritext_italic" />
 
             <ImageView
                 android:id="@+id/country5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ph"
+                android:layout_marginTop="490dp"
                 android:contentDescription="@string/ph_desc"
-                android:layout_marginTop="480dp"/>
+                android:layout_marginStart="15dp"
+                android:src="@drawable/argentina" />
 
             <TextView
                 android:id="@+id/name6"
@@ -176,21 +168,22 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/rect_2"
                 android:layout_marginStart="40dp"
-                android:text="Germany"
+                android:text="Germany \n Capital: Berlin"
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:textSize="30sp"
+                android:textSize="20sp"
                 android:padding="25dp"
                 android:layout_marginTop="600dp"
-                android:fontFamily="sans-serif" />
+                android:fontFamily="@font/dmseritext_italic" />
 
             <ImageView
                 android:id="@+id/country6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ph"
+                android:src="@drawable/germany"
+                android:layout_marginStart="15dp"
                 android:contentDescription="@string/ph_desc"
-                android:layout_marginTop="600dp"/>
+                android:layout_marginTop="610dp"/>
 
             <TextView
                 android:id="@+id/name7"
@@ -198,21 +191,22 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/rect_1"
                 android:layout_marginStart="40dp"
-                android:text="France"
+                android:text="France \n Capital: Paris"
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:textSize="30sp"
+                android:textSize="20sp"
                 android:padding="25dp"
                 android:layout_marginTop="720dp"
-                android:fontFamily="sans-serif" />
+                android:fontFamily="@font/dmseritext_italic" />
 
             <ImageView
                 android:id="@+id/country7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ph"
+                android:src="@drawable/france"
+                android:layout_marginStart="15dp"
                 android:contentDescription="@string/ph_desc"
-                android:layout_marginTop="720dp"/>
+                android:layout_marginTop="735dp"/>
 
             <TextView
                 android:id="@+id/name8"
@@ -220,21 +214,22 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/rect_2"
                 android:layout_marginStart="40dp"
-                android:text="Italy"
+                android:text="Italy \n Capital: Rome"
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:textSize="30sp"
+                android:textSize="20sp"
                 android:padding="25dp"
                 android:layout_marginTop="840dp"
-                android:fontFamily="sans-serif" />
+                android:fontFamily="@font/dmseritext_italic" />
 
             <ImageView
                 android:id="@+id/country8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ph"
+                android:src="@drawable/italy"
+                android:layout_marginStart="15dp"
                 android:contentDescription="@string/ph_desc"
-                android:layout_marginTop="840dp"/>
+                android:layout_marginTop="850dp"/>
 
             <TextView
                 android:id="@+id/name9"
@@ -242,21 +237,22 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/rect_1"
                 android:layout_marginStart="40dp"
-                android:text="Australia"
+                android:text="Australia \n Capital: Sydney"
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:textSize="30sp"
+                android:textSize="20sp"
                 android:padding="25dp"
                 android:layout_marginTop="960dp"
-                android:fontFamily="sans-serif" />
+                android:fontFamily="@font/dmseritext_italic" />
 
             <ImageView
                 android:id="@+id/country9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ph"
+                android:src="@drawable/australia"
+                android:layout_marginStart="15dp"
                 android:contentDescription="@string/ph_desc"
-                android:layout_marginTop="960dp"/>
+                android:layout_marginTop="970dp"/>
 
             <TextView
                 android:id="@+id/name10"
@@ -264,21 +260,22 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/rect_2"
                 android:layout_marginStart="40dp"
-                android:text="Japan"
+                android:text="Japan \n Capital: Tokyo"
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:textSize="30sp"
+                android:textSize="20sp"
                 android:padding="25dp"
                 android:layout_marginTop="1080dp"
-                android:fontFamily="sans-serif" />
+                android:fontFamily="@font/dmseritext_italic" />
 
             <ImageView
                 android:id="@+id/country10"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ph"
+                android:src="@drawable/japan"
+                android:layout_marginStart="15dp"
                 android:contentDescription="@string/ph_desc"
-                android:layout_marginTop="1080dp"/>
+                android:layout_marginTop="1090dp"/>
 
             <TextView
                 android:id="@+id/name11"
@@ -286,21 +283,22 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/rect_1"
                 android:layout_marginStart="40dp"
-                android:text="China"
+                android:text="China \n Capital:Beijing"
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:textSize="30sp"
+                android:textSize="20sp"
                 android:padding="25dp"
                 android:layout_marginTop="1200dp"
-                android:fontFamily="sans-serif" />
+                android:fontFamily="@font/dmseritext_italic" />
 
             <ImageView
                 android:id="@+id/country11"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ph"
+                android:src="@drawable/china"
                 android:contentDescription="@string/ph_desc"
-                android:layout_marginTop="1200dp"/>
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="1210dp"/>
 
             <TextView
                 android:id="@+id/name12"
@@ -308,21 +306,22 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/rect_2"
                 android:layout_marginStart="40dp"
-                android:text="India"
+                android:text="India \n Capital:New Delhi"
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:textSize="30sp"
+                android:textSize="20sp"
                 android:padding="25dp"
                 android:layout_marginTop="1320dp"
-                android:fontFamily="sans-serif" />
+                android:fontFamily="@font/dmseritext_italic" />
 
             <ImageView
                 android:id="@+id/country12"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ph"
+                android:src="@drawable/india"
                 android:contentDescription="@string/ph_desc"
-                android:layout_marginTop="1320dp"/>
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="1330dp"/>
 
             <TextView
                 android:id="@+id/name13"
@@ -330,22 +329,23 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/rect_1"
                 android:layout_marginStart="40dp"
-                android:text="South Africa"
+                android:text="South Africa \n Capital:Cape town"
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:textSize="30sp"
+                android:textSize="20sp"
                 android:padding="25dp"
                 android:layout_marginTop="1440dp"
                 android:paddingStart="55dp"
-                android:fontFamily="sans-serif" />
+                android:fontFamily="@font/dmseritext_italic" />
 
             <ImageView
                 android:id="@+id/country13"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ph"
+                android:src="@drawable/south_africa"
                 android:contentDescription="@string/ph_desc"
-                android:layout_marginTop="1440dp"/>
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="1450dp"/>
 
             <TextView
                 android:id="@+id/name14"
@@ -353,21 +353,21 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/rect_2"
                 android:layout_marginStart="40dp"
-                android:text="@string/ph"
+                android:text="Yemen \n Capital:Sanaa"
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:textSize="30sp"
+                android:textSize="20sp"
                 android:padding="25dp"
                 android:layout_marginTop="1560dp"
-                android:fontFamily="sans-serif" />
+                android:fontFamily="@font/dmseritext_italic" />
 
             <ImageView
                 android:id="@+id/country14"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ph"
+                android:src="@drawable/yemen"
                 android:contentDescription="@string/ph_desc"
-                android:layout_marginTop="1560dp"/>
+                android:layout_marginTop="1570dp"/>
 
             <TextView
                 android:id="@+id/name15"
@@ -375,21 +375,22 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/rect_1"
                 android:layout_marginStart="40dp"
-                android:text="Egypt"
+                android:text="Egypt \n Capital:Cairo"
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:textSize="30sp"
+                android:textSize="20sp"
                 android:padding="25dp"
                 android:layout_marginTop="1680dp"
-                android:fontFamily="sans-serif" />
+                android:fontFamily="@font/dmseritext_italic" />
 
             <ImageView
                 android:id="@+id/country15"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ph"
+                android:src="@drawable/egypt"
                 android:contentDescription="@string/ph_desc"
-                android:layout_marginTop="1680dp"/>
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="1690dp"/>
 
             <TextView
                 android:id="@+id/name16"
@@ -397,21 +398,22 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/rect_2"
                 android:layout_marginStart="40dp"
-                android:text="Mexico"
+                android:text="Mexico \n Capital:Mexico city"
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:textSize="30sp"
+                android:textSize="20sp"
                 android:padding="25dp"
                 android:layout_marginTop="1800dp"
-                android:fontFamily="sans-serif" />
+                android:fontFamily="@font/dmseritext_italic" />
 
             <ImageView
                 android:id="@+id/country16"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ph"
+                android:src="@drawable/mexico"
                 android:contentDescription="@string/ph_desc"
-                android:layout_marginTop="1800dp"/>
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="1810dp"/>
 
             <TextView
                 android:id="@+id/name17"
@@ -419,21 +421,22 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/rect_1"
                 android:layout_marginStart="40dp"
-                android:text="Russia"
+                android:text="Russia \n Capital:Moscow"
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:textSize="30sp"
+                android:textSize="20sp"
                 android:padding="25dp"
                 android:layout_marginTop="1920dp"
-                android:fontFamily="sans-serif" />
+                android:fontFamily="@font/dmseritext_italic" />
 
             <ImageView
                 android:id="@+id/country17"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ph"
+                android:src="@drawable/russia"
                 android:contentDescription="@string/ph_desc"
-                android:layout_marginTop="1920dp"/>
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="1930dp"/>
 
             <TextView
                 android:id="@+id/name18"
@@ -441,22 +444,23 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/rect_2"
                 android:layout_marginStart="40dp"
-                android:text="South Korea"
+                android:text="South Korea \n Capital:Seoul"
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:textSize="30sp"
+                android:textSize="20sp"
                 android:padding="25dp"
                 android:layout_marginTop="2040dp"
                 android:paddingStart="50dp"
-                android:fontFamily="sans-serif" />
+                android:fontFamily="@font/dmseritext_italic" />
 
             <ImageView
                 android:id="@+id/country18"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ph"
+                android:src="@drawable/south_korea"
                 android:contentDescription="@string/ph_desc"
-                android:layout_marginTop="2040dp"/>
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="2050dp"/>
 
             <TextView
                 android:id="@+id/name19"
@@ -464,22 +468,23 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/rect_1"
                 android:layout_marginStart="40dp"
-                android:text="Saudi Arabia"
+                android:text="Saudi Arabia \n Capital:Riyadh"
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:textSize="30sp"
+                android:textSize="20sp"
                 android:padding="25dp"
                 android:layout_marginTop="2160dp"
                 android:paddingStart="50dp"
-                android:fontFamily="sans-serif" />
+                android:fontFamily="@font/dmseritext_italic" />
 
             <ImageView
                 android:id="@+id/country19"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ph"
+                android:src="@drawable/saudi_arabia"
                 android:contentDescription="@string/ph_desc"
-                android:layout_marginTop="2160dp"/>
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="2170dp"/>
 
             <TextView
                 android:id="@+id/name20"
@@ -487,21 +492,43 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/rect_2"
                 android:layout_marginStart="40dp"
-                android:text="@string/ph"
+                android:text="Finland \n Capital:Helsinki"
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:textSize="30sp"
+                android:textSize="20sp"
                 android:padding="25dp"
                 android:layout_marginTop="2280dp"
-                android:fontFamily="sans-serif" />
+                android:fontFamily="@font/dmseritext_italic" />
 
             <ImageView
                 android:id="@+id/country20"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:src="@drawable/finland"
+                android:contentDescription="@string/ph_desc"
+                android:layout_marginTop="2290dp"/>
+
+            <TextView
+                android:id="@+id/name21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="2400dp"
+                android:background="@drawable/rect_2"
+                android:fontFamily="@font/dmseritext_italic"
+                android:padding="25dp"
+                android:text="@string/ph"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/country21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:src="@drawable/ph"
                 android:contentDescription="@string/ph_desc"
-                android:layout_marginTop="2280dp"/>
+                android:layout_marginTop="2400dp"/>
 
         </RelativeLayout>
 
