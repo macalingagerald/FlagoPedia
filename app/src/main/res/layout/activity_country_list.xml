@@ -91,7 +91,7 @@
                 android:src="@drawable/us"
                 android:contentDescription="@string/ph_desc"
                 android:layout_marginStart="15dp"
-                android:layout_marginTop="135dp"/>
+                android:layout_marginTop="145dp"/>
 
             <TextView
                 android:id="@+id/name3"
@@ -104,7 +104,7 @@
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:padding="25dp"
-                android:layout_marginTop="240dp"
+                android:layout_marginTop="260dp"
                 android:fontFamily="@font/dmseritext_italic" />
 
             <ImageView
@@ -114,14 +114,14 @@
                 android:src="@drawable/canada"
                 android:layout_marginStart="15dp"
                 android:contentDescription="@string/ph_desc"
-                android:layout_marginTop="248dp"/>
+                android:layout_marginTop="273dp"/>
 
             <TextView
                 android:id="@+id/name4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="40dp"
-                android:layout_marginTop="360dp"
+                android:layout_marginTop="380dp"
                 android:background="@drawable/rect_2"
                 android:fontFamily="@font/dmseritext_italic"
                 android:padding="25dp"
@@ -137,7 +137,7 @@
                 android:src="@drawable/brazil"
                 android:layout_marginStart="15dp"
                 android:contentDescription="@string/ph_desc"
-                android:layout_marginTop="370dp"/>
+                android:layout_marginTop="393dp"/>
 
             <TextView
                 android:id="@+id/name5"
@@ -150,14 +150,14 @@
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:padding="25dp"
-                android:layout_marginTop="480dp"
+                android:layout_marginTop="500dp"
                 android:fontFamily="@font/dmseritext_italic" />
 
             <ImageView
                 android:id="@+id/country5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="490dp"
+                android:layout_marginTop="530dp"
                 android:contentDescription="@string/ph_desc"
                 android:layout_marginStart="15dp"
                 android:src="@drawable/argentina" />
@@ -173,7 +173,7 @@
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:padding="25dp"
-                android:layout_marginTop="600dp"
+                android:layout_marginTop="645dp"
                 android:fontFamily="@font/dmseritext_italic" />
 
             <ImageView
@@ -183,7 +183,7 @@
                 android:src="@drawable/germany"
                 android:layout_marginStart="15dp"
                 android:contentDescription="@string/ph_desc"
-                android:layout_marginTop="610dp"/>
+                android:layout_marginTop="660dp"/>
 
             <TextView
                 android:id="@+id/name7"
@@ -196,7 +196,7 @@
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:padding="25dp"
-                android:layout_marginTop="720dp"
+                android:layout_marginTop="765dp"
                 android:fontFamily="@font/dmseritext_italic" />
 
             <ImageView
@@ -206,7 +206,7 @@
                 android:src="@drawable/france"
                 android:layout_marginStart="15dp"
                 android:contentDescription="@string/ph_desc"
-                android:layout_marginTop="735dp"/>
+                android:layout_marginTop="780dp"/>
 
             <TextView
                 android:id="@+id/name8"
@@ -219,7 +219,7 @@
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:padding="25dp"
-                android:layout_marginTop="840dp"
+                android:layout_marginTop="885dp"
                 android:fontFamily="@font/dmseritext_italic" />
 
             <ImageView
@@ -229,7 +229,7 @@
                 android:src="@drawable/italy"
                 android:layout_marginStart="15dp"
                 android:contentDescription="@string/ph_desc"
-                android:layout_marginTop="850dp"/>
+                android:layout_marginTop="905dp"/>
 
             <TextView
                 android:id="@+id/name9"
@@ -242,7 +242,7 @@
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:padding="25dp"
-                android:layout_marginTop="960dp"
+                android:layout_marginTop="1005dp"
                 android:fontFamily="@font/dmseritext_italic" />
 
             <ImageView
@@ -252,7 +252,7 @@
                 android:src="@drawable/australia"
                 android:layout_marginStart="15dp"
                 android:contentDescription="@string/ph_desc"
-                android:layout_marginTop="970dp"/>
+                android:layout_marginTop="1020dp"/>
 
             <TextView
                 android:id="@+id/name10"
@@ -265,7 +265,7 @@
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:padding="25dp"
-                android:layout_marginTop="1080dp"
+                android:layout_marginTop="1125dp"
                 android:fontFamily="@font/dmseritext_italic" />
 
             <ImageView
@@ -275,7 +275,7 @@
                 android:src="@drawable/japan"
                 android:layout_marginStart="15dp"
                 android:contentDescription="@string/ph_desc"
-                android:layout_marginTop="1090dp"/>
+                android:layout_marginTop="1140dp"/>
 
             <TextView
                 android:id="@+id/name11"
@@ -288,7 +288,7 @@
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:padding="25dp"
-                android:layout_marginTop="1200dp"
+                android:layout_marginTop="1245dp"
                 android:fontFamily="@font/dmseritext_italic" />
 
             <ImageView
@@ -298,7 +298,7 @@
                 android:src="@drawable/china"
                 android:contentDescription="@string/ph_desc"
                 android:layout_marginStart="15dp"
-                android:layout_marginTop="1210dp"/>
+                android:layout_marginTop="1260dp"/>
 
             <TextView
                 android:id="@+id/name12"
@@ -306,12 +306,12 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/rect_2"
                 android:layout_marginStart="40dp"
-                android:text="India \n Capital:New Delhi"
+                android:text="India \n Capital: New Delhi"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:padding="25dp"
-                android:layout_marginTop="1320dp"
+                android:layout_marginTop="1365dp"
                 android:fontFamily="@font/dmseritext_italic" />
 
             <ImageView
@@ -321,7 +321,7 @@
                 android:src="@drawable/india"
                 android:contentDescription="@string/ph_desc"
                 android:layout_marginStart="15dp"
-                android:layout_marginTop="1330dp"/>
+                android:layout_marginTop="1380dp"/>
 
             <TextView
                 android:id="@+id/name13"
@@ -334,7 +334,7 @@
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:padding="25dp"
-                android:layout_marginTop="1440dp"
+                android:layout_marginTop="1485dp"
                 android:paddingStart="55dp"
                 android:fontFamily="@font/dmseritext_italic" />
 
@@ -345,7 +345,7 @@
                 android:src="@drawable/south_africa"
                 android:contentDescription="@string/ph_desc"
                 android:layout_marginStart="15dp"
-                android:layout_marginTop="1450dp"/>
+                android:layout_marginTop="1500dp"/>
 
             <TextView
                 android:id="@+id/name14"
@@ -358,7 +358,7 @@
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:padding="25dp"
-                android:layout_marginTop="1560dp"
+                android:layout_marginTop="1605dp"
                 android:fontFamily="@font/dmseritext_italic" />
 
             <ImageView
@@ -366,8 +366,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/yemen"
+                android:layout_marginStart="15dp"
                 android:contentDescription="@string/ph_desc"
-                android:layout_marginTop="1570dp"/>
+                android:layout_marginTop="1620dp"/>
 
             <TextView
                 android:id="@+id/name15"
@@ -380,7 +381,7 @@
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:padding="25dp"
-                android:layout_marginTop="1680dp"
+                android:layout_marginTop="1725dp"
                 android:fontFamily="@font/dmseritext_italic" />
 
             <ImageView
@@ -390,7 +391,7 @@
                 android:src="@drawable/egypt"
                 android:contentDescription="@string/ph_desc"
                 android:layout_marginStart="15dp"
-                android:layout_marginTop="1690dp"/>
+                android:layout_marginTop="1740dp"/>
 
             <TextView
                 android:id="@+id/name16"
@@ -403,7 +404,7 @@
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:padding="25dp"
-                android:layout_marginTop="1800dp"
+                android:layout_marginTop="1845dp"
                 android:fontFamily="@font/dmseritext_italic" />
 
             <ImageView
@@ -413,7 +414,7 @@
                 android:src="@drawable/mexico"
                 android:contentDescription="@string/ph_desc"
                 android:layout_marginStart="15dp"
-                android:layout_marginTop="1810dp"/>
+                android:layout_marginTop="1860dp"/>
 
             <TextView
                 android:id="@+id/name17"
@@ -426,7 +427,7 @@
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:padding="25dp"
-                android:layout_marginTop="1920dp"
+                android:layout_marginTop="1965dp"
                 android:fontFamily="@font/dmseritext_italic" />
 
             <ImageView
@@ -436,7 +437,7 @@
                 android:src="@drawable/russia"
                 android:contentDescription="@string/ph_desc"
                 android:layout_marginStart="15dp"
-                android:layout_marginTop="1930dp"/>
+                android:layout_marginTop="1980dp"/>
 
             <TextView
                 android:id="@+id/name18"
@@ -449,7 +450,7 @@
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:padding="25dp"
-                android:layout_marginTop="2040dp"
+                android:layout_marginTop="2085dp"
                 android:paddingStart="50dp"
                 android:fontFamily="@font/dmseritext_italic" />
 
@@ -460,7 +461,7 @@
                 android:src="@drawable/south_korea"
                 android:contentDescription="@string/ph_desc"
                 android:layout_marginStart="15dp"
-                android:layout_marginTop="2050dp"/>
+                android:layout_marginTop="2100dp"/>
 
             <TextView
                 android:id="@+id/name19"
@@ -473,7 +474,7 @@
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:padding="25dp"
-                android:layout_marginTop="2160dp"
+                android:layout_marginTop="2205dp"
                 android:paddingStart="50dp"
                 android:fontFamily="@font/dmseritext_italic" />
 
@@ -484,7 +485,7 @@
                 android:src="@drawable/saudi_arabia"
                 android:contentDescription="@string/ph_desc"
                 android:layout_marginStart="15dp"
-                android:layout_marginTop="2170dp"/>
+                android:layout_marginTop="2220dp"/>
 
             <TextView
                 android:id="@+id/name20"
@@ -497,7 +498,7 @@
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:padding="25dp"
-                android:layout_marginTop="2280dp"
+                android:layout_marginTop="2325dp"
                 android:fontFamily="@font/dmseritext_italic" />
 
             <ImageView
@@ -505,8 +506,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/finland"
+                android:layout_marginStart="15dp"
                 android:contentDescription="@string/ph_desc"
-                android:layout_marginTop="2290dp"/>
+                android:layout_marginTop="2340dp"/>
 
             <TextView
                 android:id="@+id/name21"
