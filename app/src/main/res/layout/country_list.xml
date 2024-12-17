@@ -1,56 +1,60 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="8dp"
-    android:elevation="4dp"
     app:cardCornerRadius="12dp"
-    app:cardBackgroundColor="#FFFFFF"
-    tools:context=".trylng">
+    app:cardElevation="0dp"
+    android:background="@drawable/home"
+    app:cardBackgroundColor="@android:color/transparent">
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="387dp"
         android:layout_height="wrap_content"
-        android:background="@color/dark_blue"
+        android:background="@drawable/rect_1"
+        android:gravity="center_vertical"
         android:orientation="horizontal"
         android:padding="20dp">
 
         <!-- Country Flag -->
         <ImageView
             android:id="@+id/countryLogo"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_marginEnd="16dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="12dp"
+            android:scaleType="fitCenter"
             android:src="@drawable/ph" />
 
         <!-- Country Name and Capital -->
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="center_vertical"
             android:orientation="vertical">
 
+            <!-- Country Name -->
             <TextView
                 android:id="@+id/countryName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="@font/dmseritext_italic"
                 android:text="Philippines"
                 android:textColor="@color/white"
-                android:textSize="18sp" />
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
+            <!-- Country Capital -->
             <TextView
                 android:id="@+id/countryCapital"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Manila"
-                android:textColor="#757575"
-                android:textSize="14sp"
+                android:fontFamily="@font/dmseritext_regular"
+                android:text="Capital: Manila"
+                android:textColor="@color/white"
+                android:textSize="16sp"
                 android:visibility="gone" />
-
         </LinearLayout>
-
     </LinearLayout>
+
 </androidx.cardview.widget.CardView>
+

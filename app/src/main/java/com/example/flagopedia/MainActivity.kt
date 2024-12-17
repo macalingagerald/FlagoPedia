@@ -23,7 +23,8 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        startBtn = findViewById(R.id.start_btn)
+        startBtn = findViewById(R.id.act_1)
+        startBtn = findViewById(R.id.act_2)
 
         startBtn.setOnClickListener {
             val intent = Intent(this, trylng::class.java)
